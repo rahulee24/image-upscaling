@@ -106,13 +106,11 @@ Organize your dataset in the following structure:
 ```
 image-upscaling/
 ├── data/
-│   ├── train/
-│   │   ├── image1.png
-│   │   ├── image2.png
-│   │   └── ...
-│   └── test/
-│       ├── test1.png
+│    ── DIV2K_train_HR/
+│       ├── image1.png
+│       ├── image2.png
 │       └── ...
+│    
 ├── dataset.py
 ├── generator.py
 └── ...
